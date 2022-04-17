@@ -1,0 +1,7 @@
+{
+  "name": "@coderspirit/lock-distill",
+  "version": "0.1.0",
+  "description": "A lock-files distiller, to be used in monorepo environments when creating Docker images.",
+  "author": "Andres Correa Casablanca <castarco@coderspirit.xyz>",
+  "license": "MIT"
+}
