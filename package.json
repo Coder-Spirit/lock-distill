@@ -1,6 +1,6 @@
 {
   "name": "@coderspirit/lock-distill",
-  "version": "0.1.1",
+  "version": "0.1.3",
   "author": "Andres Correa Casablanca <castarco@coderspirit.xyz>",
   "private": false,
   "license": "MIT",
@@ -15,6 +15,10 @@
   "bin": {
     "lock-distiller": "./bin/distiller.mjs"
   },
+  "files": [
+    "bin/distiller.mjs",
+    "dist/*.mjs"
+  ],
   "scripts": {
     "build": "tsc -p ./tsconfig.json",
     "clean:dist": "rm -rf ./dist",

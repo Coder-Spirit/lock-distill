@@ -1,5 +1,0 @@
-*
-**/*
-!bin/**/*
-!dist/**/*
-dist/tsconfig.tsbuildinfo
