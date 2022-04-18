@@ -43,6 +43,9 @@ We have to pass at least two options:
 lock-distill -p ./apps/svc1/package.json -l ./yarn.lock -o ./apps/svc1/distilled.yarn.lock
 ```
 
+Once you have a "distilled" lockfile, you can COPY or mount it while building
+the Docker/OCI image.
+
 ### Options
 
 - `-p, --package <path>`: The application's `package.json` file path.
