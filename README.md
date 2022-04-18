@@ -1,7 +1,6 @@
 # Lock-Distill
 
 [![NPM version](https://img.shields.io/npm/v/@coderspirit/lock-distill.svg?style=flat)](https://www.npmjs.com/package/@coderspirit/lock-distill)
-[![TypeScript](https://badgen.net/npm/types/@coderspirit/lock-distill)](http://www.typescriptlang.org/)
 [![License](https://badgen.net/npm/license/@coderspirit/lock-distill)](https://opensource.org/licenses/MIT)
 [![npm downloads](https://img.shields.io/npm/dm/@coderspirit/lock-distill.svg?style=flat)](https://www.npmjs.com/package/@coderspirit/lock-distill)
 [![Known Vulnerabilities](https://snyk.io//test/github/Coder-Spirit/lock-distill/badge.svg?targetFile=package.json)](https://snyk.io//test/github/Coder-Spirit/lock-distill?targetFile=package.json)
