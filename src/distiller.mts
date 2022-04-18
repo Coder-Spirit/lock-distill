@@ -8,14 +8,14 @@ const program = new Command()
   )
   .version('0.1.0')
   .requiredOption(
-    '-p, --package-json <package_json_path>',
+    '-p, --package-json <path>',
     'the workspace package.json must be specified',
   )
   .requiredOption(
-    '-l, --lockfile <lockfile_path>',
+    '-l, --lockfile <path>',
     'the base lockfile must be specified',
   )
-  .option('-o, --output <output>', 'output file path')
+  .option('-o, --output <path>', 'output file path')
   .addOption(
     new Option(
       '-m, --mode <mode>',
