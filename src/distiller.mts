@@ -6,7 +6,7 @@ const program = new Command()
   .description(
     'A lock-files distiller. It generates minimal lock-files for for specific workspaces in monorepo environments.',
   )
-  .version('0.1.0')
+  .version('0.1.1')
   .requiredOption(
     '-p, --package-json <path>',
     'the workspace package.json must be specified',

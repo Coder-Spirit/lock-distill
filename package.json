@@ -1,7 +1,8 @@
 {
   "name": "@coderspirit/lock-distill",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Andres Correa Casablanca <castarco@coderspirit.xyz>",
+  "private": false,
   "license": "MIT",
   "description": "A lock-files distiller, to be used in monorepo environments when creating Docker images.",
   "keywords": [
@@ -48,6 +49,14 @@
     "commander": "^9.2.0"
   },
   "engines": {
-    "node": ">14.0.0"
-  }
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Coder-Spirit/lock-distill.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Coder-Spirit/lock-distill/issues"
+  },
+  "homepage": "https://github.com/Coder-Spirit/lock-distill#readme"
 }
