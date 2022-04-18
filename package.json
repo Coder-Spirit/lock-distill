@@ -10,11 +10,44 @@
     "docker",
     "yarn"
   ],
+  "type": "module",
+  "bin": {
+    "lock-distiller": "./bin/distiller.mjs"
+  },
+  "scripts": {
+    "build": "tsc -p ./tsconfig.json",
+    "clean:dist": "rm -rf ./dist",
+    "lint": "yarn lint:tsc && yarn lint:eslint",
+    "lint:eslint": "eslint . --ext .mts --max-warnings 0",
+    "lint:tsc": "tsc --noEmit",
+    "postinstall": "if [ -d .git ]; then git config core.hooksPath .hooks; fi",
+    "prepublishOnly": "yarn lint && yarn test && yarn clean:dist && yarn build",
+    "test": "echo 'TODO: Implement tests'"
+  },
   "devDependencies": {
+    "@types/node": "^17.0.24",
     "@types/yarnpkg__lockfile": "^1.1.5",
-    "typescript": "^4.6.3"
+    "@typescript-eslint/eslint-plugin": "^5.19.0",
+    "@typescript-eslint/parser": "^5.19.0",
+    "eslint": "^8.13.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-import-resolver-typescript": "^2.7.1",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jest": "^26.1.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-sonarjs": "^0.13.0",
+    "eslint-plugin-unicorn": "^42.0.0",
+    "prettier": "^2.6.2",
+    "type-fest": "^2.12.2",
+    "typescript": "^4.7.0-beta"
   },
   "dependencies": {
-    "@yarnpkg/lockfile": "^1.1.0"
+    "@yarnpkg/lockfile": "^1.1.0",
+    "commander": "^9.2.0"
+  },
+  "engines": {
+    "node": ">14.0.0"
   }
 }
