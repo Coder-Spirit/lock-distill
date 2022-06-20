@@ -1648,9 +1648,9 @@ type-fest@^2.12.2:
   integrity sha512-qt6ylCGpLjZ7AaODxbpyBZSs9fCI9SkL3Z9q2oxMBQhs/uyY+VD8jHA8ULCGmWQJlBgqvO3EJeAngOHD8zQCrQ==
 
 typescript@^4.7.0-beta:
-  version "4.7.0-dev.20220418"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.7.0-dev.20220418.tgz#2eb6a4ce22da3e5cb6655677591745bbdd093aa3"
-  integrity sha512-1V703WHO2gxe96y6sbNGcqalsTCjHozhETgBtXt9Xl1EPDuXnQamiPH8lskapJwyr/VA+NMfM91BN5hSVh10Iw==
+  version "4.7.4"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.7.4.tgz#1a88596d1cf47d59507a1bcdfb5b9dfe4d488235"
+  integrity sha512-C0WQT0gezHuw6AdY1M2jxUO83Rjf0HP7Sk1DtXj6j1EwkQNZrHAg2XPWlq62oqEhYvONq5pkC2Y9oPljWToLmQ==
 
 unbox-primitive@^1.0.1:
   version "1.0.1"
